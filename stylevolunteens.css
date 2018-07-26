@@ -1,0 +1,134 @@
+.tabcolor {
+    background-color: #15826C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Raleway;
+    margin: 4px 4px;
+    cursor: pointer;
+    float: none;
+}
+.buttoncolor {
+    background-color: #5BA3A4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 25px;
+    cursor: pointer;
+    float: none;
+    font-family: Raleway;
+}
+
+body {
+  background: linear-gradient(white, #15826C);
+}
+.tab {
+  background-color: #15826C;
+  margin-right: auto;
+  margin-left: auto;
+}
+p {
+  font-size: 20px;
+  font-family: Raleway;
+}
+
+div {
+  font-family: Raleway;
+  font-size: 20px;
+}
+b {
+  font-weight: bold;
+}
+
+h1 {
+  color: #226B41;
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  color: #5D968B;
+  font-size: 36px;
+  font-family: Raleway;
+}
+h3 {
+  color: #5D968B;
+  font-size: 36px;
+  text-align: center;
+  font-family: Raleway;
+}
+h4 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: Raleway;
+}
+body{
+  background-color: #E4F3F0;
+}
+.leftText {
+  text-align: left;
+}
+.centerText{
+  text-align: center;
+}
+.rightText{
+  text-align: right;
+}
+.tabcontent {
+  display: none;
+}
+.centerPic2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: auto;
+}
+.centerPic3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  width: 1000px;
+}
+.centerPic4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: auto;
+}
+.centerPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftPic{
+  display: run-in;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rightPic{
+  display: flow-root;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  width: 150px;
+  height:auto;
+  border: black;
+  margin: 2px 4px;
+}
+.monoton{
+  font-family: Monoton;
+}

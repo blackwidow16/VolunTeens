@@ -1,0 +1,98 @@
+</!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylevolunteens.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|PT+Sans|Raleway|Raleway:400,800" rel="stylesheet">
+    <link href = "slideshowTeens.css" rel = "stylesheet">
+    <script src = "scriptvolunteens.js"></script>
+  </head>
+  <body>
+    <h1><span  style = "color:black; font-family:Arial; font-size: 50px">VOLUN</span>
+    <span style = "color:black; font-family:Monoton; font-weight:bold; font-size: 45px">TEENS</span></h1>
+      <h2><b>Opportunities</b></h2>
+      <a href = "index.html"><button class = "tabcolor">Back to Homepage</button></a>
+      <p>
+        There are many volunteer opportunities available for teens across the Bay Area. Here, you can find options within your county or city. Click the buttons below to see the various options! 
+      </p>
+      <a href = "sfoTeens.html"><button class = "buttoncolor">San Francisco County</button></a> 
+      <a href = "santaclaraTeens.html"><button class = "buttoncolor">Santa Clara County</button></a>
+      <a href = "alamedaTeens.html"><button class = "buttoncolor">Alameda County</button></a>
+      <a href="sanmateoTeens.html"><button class = "buttoncolor">San Mateo County</button></a>
+      <a href = "marinTeens.html"><button class = "buttoncolor">Marin County</button></a>
+      <a href ="contracostaTeens.html"><button class="buttoncolor">Contra Costa County</button></a>
+
+      <!--slideshow-->
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Fort_Point_National_Historic_Site_and_Golden_Gate_Bridge.jpg" style="width:100%">
+      <div class="text">The Golden Gate Bridge of San Francisco</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Mission_Santa_Clara.jpg" style="width:100%">
+      <div class="text">Mission Santa Clara</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Mormon_Temple%2C_Oakland.jpg" style="width:100%">
+      <div class="text">Oakland Mormon Temple in Oakland, Alameda County</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Central_Park_San_Mateo_CA.jpg" style="width:100%">
+      <div class="text">Central Park of San Mateo</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Richardson_Bay_and_Richardson_Bay_Bridge_in_Marin_County.jpg" style="width:100%">
+      <div class="text">Richardson Bay in Marin County</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img src="https://c1.staticflickr.com/1/691/20828413210_eb2a4ccf37_b.jpg" style="width:100%">
+      <div class="text">Contra Costa Courthouse</div>
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+</script>
+
+
+  </body>
